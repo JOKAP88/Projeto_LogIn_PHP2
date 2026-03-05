@@ -8,11 +8,14 @@ echo '
 
         <p> Entra Na Tua Conta Para Continuar</p><br>
 
-<label for="text_utilizador">UserName:</label><br>
+<label for="text_utilizador">E-mail:</label><br>
 <input type="email" id="text_utilizador" name="text_utilizador" placeholder="Insere o teu email" required><br><br>
 
 <label for="text_password">Password:</label><br>
 <input type="password" id="text_password" name="text_password" placeholder="Insere a tua password" required><br><br>
+
+
+<a class="repor_pass" href="#">Repor Password</a><br><br>
 
 <input type="submit" name="btn_submit" value="Entrar"><br><br>
 <hr>

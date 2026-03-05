@@ -27,6 +27,7 @@ echo '<p> Tabela Users criada com sucesso</p>';
 $sql = "CREATE TABLE IF NOT EXISTS PerfisUtilizadores(
     id_Utilizador    CHAR(36) PRIMARY KEY,
     Nome_Completo   VARCHAR(30) NOT NULL,
+    pass            VARCHAR(255) NOT NULL,
     Avatar          VARCHAR(250) DEFAULT NULL,
     Bio             TEXT,
     Tel             TEXT,
