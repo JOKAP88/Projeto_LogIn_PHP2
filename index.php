@@ -8,10 +8,11 @@ if(isset($_SESSION['user'])){
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        
         <title>MUAI THAI PT</title>
     </head>
     <body>
-        <div class="container-logado">
+        <div class="container_logado">
             <div class="mensagem">
             <strong>'.$_SESSION['user'].'</strong> Já se encontra logado no site.<br><br>
             <a href="forum.php">Avançar para o Fórum</a>
